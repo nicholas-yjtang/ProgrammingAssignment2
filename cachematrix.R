@@ -45,7 +45,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## either by returning the cached value from the special cachematrix
 ## or to solve it and store the result into the special cachematrix cache
 ##
-## @parameter x the special cached matrix object that will be used to store cached 
+## @argument x the special cached matrix object that will be used to store cached 
 ## results of the inverse matrix operation
 
 cacheSolve <- function(x, ...) {
